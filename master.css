@@ -39,10 +39,36 @@ body{
     position: relative;
 }
 #logo{
-        margin-left: 20%;
+    margin-left: 19.5%;
     background: url(tooplate_logo.png) center center /100% no-repeat;
-    width: 170px;
+    width: 190px;
     height: 70px;
     margin-top: -20px;
     display: inline-block;
+}
+.header ul{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 0px 230px;
+    padding-left: 0px;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    width: 57px;
+    height: 20px;
+    color: white;
+    
+    text-align: center;
+    font-size: 14px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header ul li:hover{
+    background: black;
+    cursor: pointer;
 }
