@@ -13,6 +13,7 @@ body{
 .header:last-child {
     margin-top: -53px !important;
     z-index: 5;
+    position: relative;
 }
 .header{
 	width: 100%;
@@ -23,16 +24,13 @@ body{
 .header:nth-child(1){
 	background-color: #ededed;
 }
-div#h-logo {
-    margin-top: -33px;
-    z-index: -1;
-}
 #h-logo{
-	width: 280px;
+    width: 280px;
     height: 80px;
+    margin-top: -33px;
     display: inline-block;
     margin-left: 10%;
-    margin-top: 38px;
     background: url(tooplate_header.png) center bottom / 100% 120% no-repeat;
-	z-index: -1;
+	z-index: 1;
+    position: relative;
 }
