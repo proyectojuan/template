@@ -81,7 +81,7 @@ body{
     position: relative;
 }
 .c1-boxmodel-1{
-    width: 400px;
+    width: 373px;
     height: 280px;
     display: inline-block;
     vertical-align: top;
@@ -97,7 +97,7 @@ body{
     margin-top: 50px;
 }
 .c1-boxmodel-1:last-child{
-    margin-left: 115px;
+    margin-left: 166px;
     border: 10px solid rgba(51, 51, 51, 0.14);
 }
 #img-1{background: url(../template/img1.jpg) center center / 100%  100% no-repeat;}
