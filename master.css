@@ -97,7 +97,7 @@ body{
     margin-top: 50px;
 }
 .c1-boxmodel-1:last-child{
-    margin-left: 127px;
+    margin-left: 115px;
     border: 10px solid rgba(51, 51, 51, 0.14);
 }
 #img-1{background: url(../template/img1.jpg) center center / 100%  100% no-repeat;}
@@ -118,6 +118,17 @@ body{
     background: linear-gradient(#19ADF2,#0C9EE1);
     color:white;
     font-weight: bold;
+    cursor:pointer;
+}
+.box-modelbutton-1 a{
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+
+}
+.box-modelbutton-1:hover{
+    text-decoration: underline;
+
 }
 .box-modelbutton-1:nth-child(2){
     margin-left: 10px;
