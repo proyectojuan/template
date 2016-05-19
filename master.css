@@ -13,14 +13,17 @@ body{
 	margin-top: 0px;
 }
 #header ul{
-	padding-left: 0px;
-	border: 1px solid;
-	width: 20%;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 0px;
+	 padding-left: 0px;
+    border: 1px solid;
+    width: 31%;
+    margin-left: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
 }
 #header ul li{
 	list-style: none;
-	display: inline-block;
+    display: inline-block;
+    font-size: 12px;
+    padding: 16px;
 }
