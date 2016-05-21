@@ -10,7 +10,6 @@ h1,h2,h3,h4,h5{
 	width: 100%;
 	height: 50px;
 	background:white;
-	border: 1px solid black;
 	position: fixed;
 	top:0;
 	display: block;
@@ -132,7 +131,40 @@ h1,h2,h3,h4,h5{
 }
 #content-3{
 	width: 100%;
-	height: 300px;
-	border: 1px solid;
-	padding-top: 8%
+	height: 580px;
+	padding-top: 8%;
+
+}
+#avatar{
+	width: 14%;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    background: url(../imagenes/testimonial-img-1.jpg)center center / 100% no-repeat;
+}
+#content-3 h1{
+	text-align: center;
+}
+#content-3 p{
+    font-size: 20px;
+    width: 54%;
+    color: rgba(0, 0, 0, 0.45);
+    margin: auto;
+    letter-spacing: 0.9px;
+    line-height: 32px;
+    text-align: center;
+}
+.s-show{
+	width: 12px;
+	height: 12px;
+	margin-left: 10px;
+	background: black;
+	display: inline-block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#control-s-show{
+	margin: auto;
+	text-align: center;
+	margin-top: 6%;
 }
