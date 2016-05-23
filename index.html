@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>tooplate</title>
 	<link rel="stylesheet" href="css/master.css">
-</head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <body>
 	<div id="header">
 		<h2>Modern Town</h2>
@@ -35,14 +35,37 @@
 	</div>
 	<div id="c2-img2" class="content-2"></div>
 	<div id="content-3">
-		<div id="avatar"></div>
-		<h1>LINDA - City Planner</h1>
-		<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa.</p>
-		<div id="control-s-show">
-		<div class="s-show"></div>
-		<div class="s-show"></div>
-		<div class="s-show"></div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="imagenes/testimonial-img-1.jpg">
+					<div class="carousel-caption">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nostrum quibusdam delectus eaque eos tempore necessitatibus, eligendi rem, cumque! Unde!
+					</div>
+				</div>
+				<div class="item">
+					<img src="imagenes/testimonial-img-2.jpg">
+					<div class="carousel-caption">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium delectus esse facere quisquam consectetur laboriosam ratione voluptatibus necessitatibus sequi a!
+					</div>
+				</div>
+				<div class="item">
+					<img src="imagenes/testimonial-img-3.jpg">
+					<div class="carousel-caption">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sint laudantium nam aspernatur quibusdam eos sapiente perspiciatis hic possimus porro.
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
