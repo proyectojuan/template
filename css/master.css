@@ -176,3 +176,13 @@ img{
 .carousel-inner > .item{
 	height: 100%;
 }
+.carousel-indicators{
+	bottom: 0 !important;
+}
+.carousel-indicators > li{
+	background-color: #ccc !important;
+}
+.carousel-indicators > li:active,
+.carousel-indicators > li.active{
+	background-color: rgba(0,0,0,0.6) !important;
+}
